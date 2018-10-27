@@ -1,0 +1,247 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Checklist G5</title>
+  <link href="css/bootstrap.min.css" rel="stylesheet">  
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-success">
+    <div class="container">
+      <a class="navbar-brand" href="#" >Checklist G5</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>          
+        </ul>
+        <div class="nav navbar-nav navbar-right">
+          <div><output id="data" style="font-family: 'arial', 'avant garde'; font-size: 14px;"></output></div> &nbsp;|&nbsp;
+          <div><output id="hora" style="font-family: 'arial', 'avant garde'; font-size: 14px;"></output></div>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <div class="container">
+    <div class="card card-body bg-light">
+      <!--<img src="imagens/centauro-logo.png" align="centauro-logo" width="400"/>-->
+      <form name="formMeta" id="form" method="POST" action="php/Executa.php"> <!-- action="php/Executa.php" -->
+        <div class="row">
+          <div class="col" align="center">
+            <h4>Marque os campos conforme o status de cada experiência.</h4>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <label for="metaCalcados">
+              Teste <br/>
+              <input type="text" value="0,00" class="text-primary" id="metaCalcados" name="metaCalcados"/>
+            </label>
+          </div>  
+        </div>
+        <div>
+        <center>SELECIONE A LOJA
+        
+        <SELECT NAME = "menu" SIZE=1>
+        <OPTION>CE001
+        <OPTION>CE002
+        <OPTION>CE003
+        <OPTION>CE004
+        <OPTION>CE005
+        <OPTION>CE006
+        <OPTION>CE007
+        <OPTION>CE008
+        <OPTION>CE009
+        <OPTION>CE010
+        <OPTION>CE011
+        <OPTION>CE012
+        <OPTION>CE013
+        <OPTION>CE014
+        <OPTION>CE015
+        <OPTION>CE016
+        <OPTION>CE017
+        <OPTION>CE018
+        <OPTION>CE019
+        <OPTION>CE020
+        <OPTION>CE021
+        <OPTION>CE022
+        <OPTION>CE023
+        <OPTION>CE024
+        <OPTION>CE025
+
+        </SELECT>
+      
+        
+
+        <hr/>
+
+
+        PROVADOR
+      
+        <SELECT NAME = "menu" SIZE=1>
+        <OPTION>OK
+        <OPTION>MAU FUNCIONAMENTO
+        </SELECT>
+        
+
+        
+        <INPUT TYPE="checkbox" NAME="OPCAO" VALUE="op1"> PROVADOR1
+        <INPUT TYPE="checkbox" NAME="OPCAO" VALUE="op2"> PROVADOR2
+        <INPUT TYPE="checkbox" NAME="OPCAO" VALUE="op3"> PROVADOR3
+        <INPUT TYPE="checkbox" NAME="OPCAO" VALUE="op4"> PROVADOR4
+        <INPUT TYPE="checkbox" NAME="OPCAO" VALUE="op5"> PROVADOR5
+        <INPUT TYPE="checkbox" NAME="OPCAO" VALUE="op6"> PROVADOR6
+        <INPUT TYPE="checkbox" NAME="OPCAO" VALUE="op7"> PROVADOR7
+
+        
+        
+
+
+        <hr/>
+
+
+        GONDOLAS
+        
+        <SELECT NAME = "menu" SIZE=1>
+        <OPTION>OK
+        <OPTION>MAU FUNCIONAMENTO
+        </SELECT>
+        <INPUT TYPE="checkbox" NAME="OPCAO" VALUE="op1"> BIKE
+        <INPUT TYPE="checkbox" NAME="OPCAO" VALUE="op2"> FUTEBOL
+        <INPUT TYPE="checkbox" NAME="OPCAO" VALUE="op3"> SUPLEMENTOS
+
+        
+        
+
+
+        <hr/>
+
+
+        LOCKER
+        
+        <SELECT NAME = "menu" SIZE=1>
+        <OPTION>OK
+        <OPTION>MAU FUNCIONAMENTO
+        </SELECT>
+        
+
+        
+        <INPUT TYPE="checkbox" NAME="OPCAO" VALUE="op1"> ARMARIO 1
+        <INPUT TYPE="checkbox" NAME="OPCAO" VALUE="op2"> ARMARIO 2
+
+
+        
+
+
+        <hr/>
+
+
+        CHECKOUT MOVEL
+        
+        <SELECT NAME = "menu" SIZE=1>
+        <OPTION>OK
+        <OPTION>MAU FUNCIONAMENTO
+        </SELECT>
+        
+
+        
+        <SELECT NAME = "lista" SIZE=3 MULTIPLE>
+        <OPTION>PDV1
+        <OPTION>PDV2
+        <OPTION>PDV3
+        <OPTION>PDV4
+        <OPTION>PDV5
+        <OPTION>PDV6
+        <OPTION>PDV7
+        <OPTION>PDV8
+        <OPTION>PDV9
+        <OPTION>PDV10
+        <OPTION>PDV11
+        <OPTION>PDV12
+        <OPTION>PDV13
+        <OPTION>PDV14
+        <OPTION>PDV15
+        <OPTION>PDV16
+        <OPTION>PDV17
+        <OPTION>PDV18
+        <OPTION>PDV19
+        <OPTION>PDV20
+        <OPTION>PDV21
+        <OPTION>PDV22
+        <OPTION>PDV23
+        <OPTION>PDV24
+        <OPTION>PDV25
+
+        </SELECT>
+        
+
+        <hr/>
+
+
+        TABLETE
+        
+        <SELECT NAME = "menu" SIZE=1>
+        <OPTION>OK
+        <OPTION>MAU FUNCIONAMENTO
+        </SELECT>
+        
+
+        
+        <SELECT NAME = "lista" SIZE=3 MULTIPLE>
+        <OPTION>TABLETE 1
+        <OPTION>TABLETE 2
+        <OPTION>TABLETE 3
+        <OPTION>TABLETE 4
+        <OPTION>TABLETE 5
+        <OPTION>TABLETE 6
+        <OPTION>TABLETE 7 
+        <OPTION>TABLETE 8
+        <OPTION>TABLETE 9
+        <OPTION>TABLETE 10
+        </SELECT>
+        
+
+        <hr/>
+
+
+
+        <OPTION>ESTEIRA
+        <OPTION>VIDEOWALL
+        <OPTION>RFID
+
+        </SELECT>
+        
+        <br/>
+        </div>
+        <div class="row">
+          <div class="col">
+            <input type="submit" value="Enviar" id="enviar" class="btn btn-success" name="Enviar"/>
+            <input type="reset" value="Limpar" class="btn btn-danger">
+          </div>
+        </div>
+      </div>
+    </form>
+  </div>
+  <div class="footer text-center" style="margin-bottom:111">
+    <p>Desenvolvido por: Rafael Borba e Rafael Rampasso -  Empresa: Centauro<br/>
+    Todos os direitos reservados.</p>
+  </div>
+
+  <!-- jQuery (necessario para os plugins Javascript do Bootstrap) -->
+  <script src="js/jquery.slim.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="node_modules/popper.js/dist/popper.min.js"></script>
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script> -->
+  
+  <!-- <script src="js/calculos.js" type="text/javascript"></script> -->
+  <script src="js/relogio.js" type="text/javascript"></script>
+  <script src="js/funcoes.js" type="text/javascript"></script>
+</body>
+</html>
